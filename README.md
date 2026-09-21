@@ -116,8 +116,8 @@ pi_2 = lambda s: {
 
 
 
-print("Name: ADHITHIYAN K")
-print("Register Number: 212222230006")
+print("Name: Harshini Y")
+print("Register Number: 212223240050")
 print_policy(pi_2, P, action_symbols=('<', 'v', '>', '^'), n_cols=4)
 print('Reaches goal {:.2f}%. Obtains an average undiscounted return of {:.4f}.'.format(
     probability_success(env, pi_2, goal_state=goal_state) * 100,
